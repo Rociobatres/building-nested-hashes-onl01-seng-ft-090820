@@ -36,8 +36,3 @@ def fourth_challenge
 
 end
 
-fourth_challenge(epic_tragedy).each do |key, value|
-  if key == ["status:"]
-    value = "dead"
-  end 
-end   
